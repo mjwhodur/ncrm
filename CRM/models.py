@@ -8,3 +8,12 @@ class Contractor(models.Model):
 class ContractorAddress(models.Model):
     pass
 
+class ContactPerson(models.Model):
+    pass
+
+class AgreementDefinitions(models.Model):
+    pass
+
+class Agreement(models.Model):
+    pass
+
