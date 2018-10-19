@@ -5,13 +5,16 @@ from django.db import models
 
 class Company(models.Model):
     """
-        Holds data about Company issuing document. Note, that documents are system-wide.
+        Holds data about Company issuing document. Note, that documents are system-wide. You may control many companies.
     """
     IdentificationNumber = models.CharField(max_length=50)
     TaxID = models.CharField(max_length=50)
+    Name = models.CharField(max_length=500)
 
 class Divisions(models.Model):
-    pass
+    Company = models.ForeignKey(Company)
+    Mnemonic = models.CharField(max_length=10)
+    Name = models.CharField(max_length=100)
 
 class Document(models.Model):
     pass
