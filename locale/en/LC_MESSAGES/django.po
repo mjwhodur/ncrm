@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 10:09+0000\n"
+"POT-Creation-Date: 2018-10-23 11:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,18 +20,22 @@ msgstr ""
 
 #: templates/commons/base.html:1
 msgid "Strona główna"
-msgstr ""
+msgstr "Main"
 
 #: templates/commons/base.html:2
 msgid "Moduły"
-msgstr ""
+msgstr "Modules"
 
 #: templates/commons/base.html:3
 msgid "Sprzedaż"
-msgstr ""
+msgstr "Sale"
 
 #: templates/commons/base.html:4
 msgid "Zakupy"
+msgstr "Purchase"
+
+#: templates/commons/base.html:31
+msgid "Gospodarka magazynowa"
 msgstr ""
 
 #: venv/lib/python3.7/site-packages/django/contrib/messages/apps.py:7

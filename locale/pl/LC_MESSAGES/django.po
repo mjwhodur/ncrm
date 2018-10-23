@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 10:10+0000\n"
+"POT-Creation-Date: 2018-10-23 11:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,10 @@ msgstr "Sprzedaż"
 #: templates/commons/base.html:4
 msgid "Zakupy"
 msgstr "Zakupy"
+
+#: templates/commons/base.html:31
+msgid "Gospodarka magazynowa"
+msgstr "Gospodarka magazynowa"
 
 #: venv/lib/python3.7/site-packages/django/contrib/messages/apps.py:7
 msgid "Messages"
@@ -91,8 +95,9 @@ msgstr "Prawidłowy 'slug' zawiera: litery, cyfry, podkreślenia oraz pauzy"
 msgid ""
 "Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
-msgstr "Wprowadź poprawny 'slug' składający się ze znaków Unicode: liter, cyfr."
-"lub pauz"
+msgstr ""
+"Wprowadź poprawny 'slug' składający się ze znaków Unicode: liter, cyfr.lub "
+"pauz"
 
 #: venv/lib/python3.7/site-packages/django/core/validators.py:255
 #: venv/lib/python3.7/site-packages/django/core/validators.py:275
@@ -1075,20 +1080,25 @@ msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
-msgstr "Widzisz tę wiadomość, ponieważ ta strona wymaga odpowiedniego ciasteczka CSRF"
-"do wysyłania formularzy. To ciasteczko jest wymagane z powodów bezpieczeństwa, aby"
-"upewnić się, iż twoja przeglądarka nie została zabberowana przez kogoś innego."
+msgstr ""
+"Widzisz tę wiadomość, ponieważ ta strona wymaga odpowiedniego ciasteczka "
+"CSRFdo wysyłania formularzy. To ciasteczko jest wymagane z powodów "
+"bezpieczeństwa, abyupewnić się, iż twoja przeglądarka nie została "
+"zabberowana przez kogoś innego."
 
 #: venv/lib/python3.7/site-packages/django/views/csrf.py:137
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for 'same-origin' requests."
-msgstr "Twoja przeglądarka nie obsługuje ciasteczek. Włącz je, albo, przynajmniej"
-"włącz obsługę ciasteczek typu 'same-origin'."
+msgstr ""
+"Twoja przeglądarka nie obsługuje ciasteczek. Włącz je, albo, "
+"przynajmniejwłącz obsługę ciasteczek typu 'same-origin'."
 
 #: venv/lib/python3.7/site-packages/django/views/csrf.py:142
 msgid "More information is available with DEBUG=True."
-msgstr "Aby uzyskać więcej informacji, zmień konfigurację zmiennej lokalnej DEBUG na True"
+msgstr ""
+"Aby uzyskać więcej informacji, zmień konfigurację zmiennej lokalnej DEBUG na "
+"True"
 
 #: venv/lib/python3.7/site-packages/django/views/generic/dates.py:41
 msgid "No year specified"
