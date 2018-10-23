@@ -20,35 +20,35 @@ msgstr ""
 
 #: templates/commons/base.html:1
 msgid "Strona główna"
-msgstr ""
+msgstr "Головна"
 
 #: templates/commons/base.html:2
 msgid "Moduły"
-msgstr ""
+msgstr "Модулі"
 
 #: templates/commons/base.html:3
 msgid "Sprzedaż"
-msgstr ""
+msgstr "продаж"
 
 #: templates/commons/base.html:4
 msgid "Zakupy"
-msgstr ""
+msgstr "Покупка"
 
 #: templates/commons/base.html:31
 msgid "Gospodarka magazynowa"
-msgstr ""
+msgstr "Управління складською"
 
 #: venv/lib/python3.7/site-packages/django/contrib/messages/apps.py:7
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #: venv/lib/python3.7/site-packages/django/contrib/sitemaps/apps.py:7
 msgid "Site Maps"
-msgstr ""
+msgstr "Мапа сайту"
 
 #: venv/lib/python3.7/site-packages/django/contrib/staticfiles/apps.py:9
 msgid "Static Files"
-msgstr ""
+msgstr "Статичні файли"
 
 #: venv/lib/python3.7/site-packages/django/contrib/syndication/apps.py:7
 msgid "Syndication"
@@ -56,19 +56,19 @@ msgstr ""
 
 #: venv/lib/python3.7/site-packages/django/core/paginator.py:42
 msgid "That page number is not an integer"
-msgstr ""
+msgstr "Номер сторінки не є цілим числом"
 
 #: venv/lib/python3.7/site-packages/django/core/paginator.py:44
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "Номер сторінки менше 1"
 
 #: venv/lib/python3.7/site-packages/django/core/paginator.py:49
 msgid "That page contains no results"
-msgstr ""
+msgstr "Ця сторінка не містить результатів"
 
 #: venv/lib/python3.7/site-packages/django/core/validators.py:31
 msgid "Enter a valid value."
-msgstr ""
+msgstr "Введіть дійсне значення"
 
 #: venv/lib/python3.7/site-packages/django/core/validators.py:102
 #: venv/lib/python3.7/site-packages/django/forms/fields.py:657
