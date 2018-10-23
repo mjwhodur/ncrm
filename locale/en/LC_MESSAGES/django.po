@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-23 11:00+0000\n"
+"POT-Creation-Date: 2018-10-23 11:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,8 +35,74 @@ msgid "Zakupy"
 msgstr "Purchase"
 
 #: templates/commons/base.html:31
-msgid "Gospodarka magazynowa"
+msgid "Warehouse management"
 msgstr ""
+
+#: templates/commons/base.html:32
+#, fuzzy
+#| msgid "Service Desk"
+msgid "Service module"
+msgstr "Service Desk"
+
+#: templates/commons/base.html:34
+msgid "Project management"
+msgstr ""
+
+#: templates/commons/base.html:35
+msgid "Client management"
+msgstr ""
+
+#: templates/commons/base.html:36
+msgid "Client portal"
+msgstr ""
+
+#: templates/commons/base.html:38
+msgid "Finance"
+msgstr ""
+
+#: templates/commons/base.html:39
+msgid "Book keeping"
+msgstr ""
+
+#: templates/commons/base.html:40
+msgid "Simple bookkeeping"
+msgstr ""
+
+#: templates/commons/base.html:41
+msgid "Recruitment"
+msgstr ""
+
+#: templates/commons/base.html:42
+msgid "Human Resources"
+msgstr ""
+
+#: templates/commons/base.html:45
+msgid "Settings"
+msgstr ""
+
+#: templates/commons/base.html:46
+msgid "System Administration"
+msgstr ""
+
+#: templates/commons/base.html:49
+msgid "Recent changes"
+msgstr ""
+
+#: templates/commons/base.html:50
+msgid "Contact"
+msgstr ""
+
+#: templates/home/landing.html:19
+msgid "Home"
+msgstr ""
+
+#: templates/home/landing.html:29
+msgid "Service Desk"
+msgstr "Service Desk"
+
+#: templates/home/landing.html:30
+msgid "IT Service desk"
+msgstr "IT Service Desk"
 
 #: venv/lib/python3.7/site-packages/django/contrib/messages/apps.py:7
 msgid "Messages"
