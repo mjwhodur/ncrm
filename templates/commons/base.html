@@ -1,0 +1,57 @@
+{% trans "Strona główna" as Home %}
+{% trans "Moduły" as Modules %}
+{% trans "Sprzedaż" as Sales %}
+{% trans "Zakupy" as Purchase %}
+
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>
+        Sprint - OpenSource CRM/ERP
+    </title>
+</head>
+<body>
+<div class="container-fluid">
+    <div data-role="appbar" data-expand-point="md">
+        <a href="#" class="brand no-hover">
+        Sprint - OpenSource CRM/ERP
+        </a>
+
+        <ul class="app-bar-menu">
+            <li><a href="#">{{ Home }}</a></li>
+            <li>
+                <a href="#" class="dropdown-toggle">{{ Modules }}</a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li><a href="#">{{ Sales }}</a></li>
+                    <li><a href="#">{{ Purchase }}</a></li>
+                    <li class="divider bg-lightGray"></li>
+                    <li><a href="#">Skype</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="container">
+        <div class="container-fluid">
+            <h1></h1>
+        </div>
+        <div class="container-fluid">
+
+            {% block content %}
+            {% endblock %}
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+</body>
+</HTML>
